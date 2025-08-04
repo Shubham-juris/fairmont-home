@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import maple from '../../assets/home/mapel.jpg';
 import pine from '../../assets/home/pine.jpg';
 import cedar from '../../assets/home/cedar.jpg';
 
 const homes = [
-  { name: 'Maple Classic', location: 'Calgary, AB', image: maple,  },
-  { name: 'Pine Signature', location: 'Edmonton, AB', image:pine, },
-  { name: 'Cedar Modern', location: 'Banff, AB', image: cedar,  },
+  { name: 'Maple Classic', location: 'Calgary, AB', image: maple, path: '/maple' },
+  { name: 'Pine Signature', location: 'Edmonton, AB', image: pine, path: 'pine' },
+  { name: 'Cedar Modern', location: 'Banff, AB', image: cedar, path: '/cedar' },
 ];
 
 export function FeaturedHomes() {
@@ -31,10 +32,12 @@ export function FeaturedHomes() {
               <div className="p-4 flex-1 flex flex-col">
                 <div className="text-xl font-semibold">{h.name}</div>
                 <div className="text-sm text-gray-500">{h.location}</div>
-                <div className="mt-2 font-bold text-green-600">{h.price}</div>
-                <button className="mt-auto w-full px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-500">
+                <Link
+                  to={h.path}
+                  className="mt-auto w-full px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-500 text-center"
+                >
                   View Details
-                </button>
+                </Link>
               </div>
             </div>
           ))}

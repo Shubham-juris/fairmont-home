@@ -1,23 +1,30 @@
 import React from "react";
 
-export function DroneMonitoringPage () {
+export function DroneMonitoringPage() {
   return (
     <main className="bg-gray-50 text-gray-900">
       {/* Header */}
       <section className="px-6 py-16 max-w-5xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-4">Drone Monitoring in Construction</h1>
+        <h1 className="text-4xl font-bold text-center mb-4">
+          Drone Monitoring in Construction
+        </h1>
         <p className="text-center text-lg max-w-2xl mx-auto">
-          निर्माण साइट पर प्रगति को वास्तविक समय में ट्रैक करें, सुरक्षा बढ़ाएं, और निर्णय तेजी से लें—ड्रोन मॉनिटरिंग से। 
+          Track site progress in real time, enhance safety, and make faster
+          decisions with drone monitoring.
         </p>
       </section>
 
       {/* Overview */}
       <section className="px-6 py-12 border-t">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-2">ड्रोन मॉनिटरिंग क्या है?</h2>
+          <h2 className="text-2xl font-semibold mb-2">
+            What is Drone Monitoring?
+          </h2>
           <p className="mb-4">
-            ड्रोन मॉनिटरिंग में निर्माण साइट पर ड्रोन का इस्तेमाल करके ऊँचाई से डेटा, इमेजरी, और 3D मैप्स एकत्र किए जाते हैं। 
-            यह surveying, progress tracking, safety inspection, और site analysis को अधिक सटीक, तेज़ और cost-effective बनाता है।
+            Drone monitoring involves using drones at construction sites to
+            capture aerial data, imagery, and 3D maps. This makes surveying,
+            progress tracking, safety inspections, and site analysis more
+            accurate, faster, and cost-effective.
           </p>
         </div>
       </section>
@@ -25,31 +32,36 @@ export function DroneMonitoringPage () {
       {/* Key Capabilities */}
       <section className="px-6 py-12">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-6">मुख्य क्षमताएं</h2>
+          <h2 className="text-2xl font-semibold mb-6">Key Capabilities</h2>
           <div className="grid gap-10 md:grid-cols-2">
             <div className="bg-white p-6 rounded-lg shadow">
               <h3 className="text-xl font-bold mb-2">Progress Tracking</h3>
               <p className="mb-2">
-                नियमित उड़ानों से साइट की प्रगति का तुलना करके यह देखा जाता है कि कार्य योजनानुसार चल रहा है या नहीं। 
-                पिछले ड्रोन डेटा के साथ overlays और time-lapse बनाकर बदलाव स्पष्ट दिखते हैं।
+                Regular drone flights allow comparison of current site progress
+                against the plan. Overlays and time-lapse videos created from
+                previous drone data make changes visible.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
               <h3 className="text-xl font-bold mb-2">Site Surveying & Mapping</h3>
               <p className="mb-2">
-                उच्च-रिज़ॉल्यूशन aerial imagery से accurate topographic maps और 3D models बनते हैं, जो planning और earthwork के लिए आवश्यक हैं।
+                High-resolution aerial imagery is used to create accurate
+                topographic maps and 3D models, essential for planning and
+                earthwork.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
               <h3 className="text-xl font-bold mb-2">Safety Inspections</h3>
               <p className="mb-2">
-                भारी या जोखिम वाले इलाके में इंसानी जांच के बजाय ड्रोन से inspection करके सुरक्षा खतरे जल्दी पकड़े जाते हैं।
+                Drones can inspect hazardous or hard-to-reach areas, identifying
+                safety risks without putting workers in danger.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
               <h3 className="text-xl font-bold mb-2">Volume Calculations</h3>
               <p className="mb-2">
-                Stockpile या excavation की volume को accurately मापा जाता है 3D point clouds और photogrammetry से।
+                Accurately measure stockpile or excavation volumes using 3D
+                point clouds and photogrammetry.
               </p>
             </div>
           </div>
@@ -59,13 +71,30 @@ export function DroneMonitoringPage () {
       {/* Workflow */}
       <section className="px-6 py-12 bg-green-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">Typical Drone Monitoring Workflow</h2>
+          <h2 className="text-2xl font-semibold mb-4">
+            Typical Drone Monitoring Workflow
+          </h2>
           <ol className="list-decimal list-inside space-y-3">
-            <li><strong>Planning & Flight Path:</strong> साइट का विश्लेषण करके flight route और altitude तय करना।</li>
-            <li><strong>Automated Drone Flight:</strong> प्री-प्रोग्राम्ड ड्रोन उड़ानें लेते हैं और imagery/ LiDAR डेटा कैप्चर करते हैं।</li>
-            <li><strong>Data Processing:</strong> Photogrammetry या point cloud generation से 2D/3D output तैयार किया जाता है।</li>
-            <li><strong>Analysis & Comparison:</strong> पिछले डेटा से तुलना (progress, deviations) और रिपोर्ट्स बनाना।</li>
-            <li><strong>Stakeholder Review:</strong> visual dashboards या overlays दिखाकर टीम को insights देना।</li>
+            <li>
+              <strong>Planning & Flight Path:</strong> Analyze the site to
+              determine flight route and altitude.
+            </li>
+            <li>
+              <strong>Automated Drone Flight:</strong> Pre-programmed drones
+              capture imagery and LiDAR data.
+            </li>
+            <li>
+              <strong>Data Processing:</strong> Use photogrammetry or point
+              cloud generation to produce 2D/3D outputs.
+            </li>
+            <li>
+              <strong>Analysis & Comparison:</strong> Compare with previous data
+              to assess progress or deviations, and create reports.
+            </li>
+            <li>
+              <strong>Stakeholder Review:</strong> Share insights via visual
+              dashboards or overlays.
+            </li>
           </ol>
         </div>
       </section>
@@ -73,30 +102,38 @@ export function DroneMonitoringPage () {
       {/* Tools */}
       <section className="px-6 py-12">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">Popular Tools & Platforms</h2>
+          <h2 className="text-2xl font-semibold mb-4">
+            Popular Tools & Platforms
+          </h2>
           <div className="grid gap-8 md:grid-cols-2">
             <div className="bg-white p-6 rounded-lg shadow">
               <h3 className="text-lg font-bold">DJI Drones</h3>
               <p className="mb-1">
-                Enterprise-grade ड्रोन जैसे DJI Phantom 4 RTK, Mavic 3 Enterprise जो high-precision mapping के लिए use होते हैं।
+                Enterprise-grade drones like DJI Phantom 4 RTK and Mavic 3
+                Enterprise are widely used for high-precision mapping.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
               <h3 className="text-lg font-bold">Pix4D / DroneDeploy</h3>
               <p className="mb-1">
-                Photogrammetry platforms जो aerial images से orthomosaics, 3D models, और volume reports generate करते हैं।
+                Photogrammetry platforms that generate orthomosaics, 3D models,
+                and volume reports from aerial images.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-lg font-bold">Reality Capture & BIM Integration</h3>
+              <h3 className="text-lg font-bold">
+                Reality Capture & BIM Integration
+              </h3>
               <p className="mb-1">
-                ड्रोन से मिला data BIM workflows में integrate करके construction coordination बेहतर बनते हैं।
+                Integrating drone data into BIM workflows improves construction
+                coordination.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
               <h3 className="text-lg font-bold">Analytics Dashboards</h3>
               <p className="mb-1">
-                Custom dashboards से progress tracking, deviation alerts और historical comparisons दिखाए जाते हैं।
+                Custom dashboards display progress tracking, deviation alerts,
+                and historical comparisons.
               </p>
             </div>
           </div>
@@ -106,12 +143,15 @@ export function DroneMonitoringPage () {
       {/* Video Section */}
       <section className="px-6 py-12 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4 text-center">Video Demonstrations</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-center">
+            Video Demonstrations
+          </h2>
           <div className="grid gap-10 md:grid-cols-2">
             <div className="space-y-2">
               <h3 className="font-bold">Drone Monitoring Overview</h3>
               <p className="text-sm text-gray-600">
-                कैसे ड्रोन real-time में construction sites को ट्रैक करते हैं और data को actionable insights में बदलते हैं।
+                How drones track construction sites in real time and convert
+                data into actionable insights.
               </p>
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
@@ -126,7 +166,8 @@ export function DroneMonitoringPage () {
             <div className="space-y-2">
               <h3 className="font-bold">Mapping & Progress with Drones</h3>
               <p className="text-sm text-gray-600">
-                Site mapping और progress comparison का عملی तरीका photogrammetry के साथ।
+                Practical site mapping and progress comparison using
+                photogrammetry.
               </p>
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
@@ -145,13 +186,17 @@ export function DroneMonitoringPage () {
       {/* Benefits */}
       <section className="px-6 py-12 bg-green-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">ड्रोन मॉनिटरिंग के फायदे</h2>
+          <h2 className="text-2xl font-semibold mb-4">
+            Benefits of Drone Monitoring
+          </h2>
           <ul className="list-disc list-inside space-y-2">
-            <li>तेज़ और बार-बार डेटा कैप्चर बिना साइट disruption के।</li>
-            <li>साइट प्रगति की वास्तविक तुलना (time-lapse और overlays)।</li>
-            <li>सुरक्षा निरीक्षण दूर से बिना जोखिम में डाले।</li>
-            <li>सटीक volume calculation और earthwork validation।</li>
-            <li>Stakeholders को visual रिपोर्ट्स और alerts देना आसान।</li>
+            <li>Fast and frequent data capture without site disruption.</li>
+            <li>Real progress comparison using time-lapse and overlays.</li>
+            <li>Remote safety inspections without risking personnel.</li>
+            <li>Accurate volume calculations and earthwork validation.</li>
+            <li>
+              Easy to share visual reports and alerts with stakeholders.
+            </li>
           </ul>
         </div>
       </section>
@@ -159,24 +204,37 @@ export function DroneMonitoringPage () {
       {/* FAQ */}
       <section className="px-6 py-12">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-6">Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-semibold mb-6">
+            Frequently Asked Questions
+          </h2>
           <div className="space-y-4">
             <div className="bg-white p-5 rounded-lg shadow">
-              <h4 className="font-semibold">ड्रोन मॉनिटरिंग कितनी बार की जानी चाहिए?</h4>
+              <h4 className="font-semibold">
+                How often should drone monitoring be done?
+              </h4>
               <p className="mt-1 text-sm text-gray-700">
-                आम तौर पर weekly या major milestones के समय, लेकिन high-risk या fast-moving sites पर daily flights भी होती हैं।
+                Typically weekly or during major milestones, but daily flights
+                may be conducted on high-risk or fast-paced sites.
               </p>
             </div>
             <div className="bg-white p-5 rounded-lg shadow">
-              <h4 className="font-semibold">क्या ड्रोन से ली गई इमेज से 3D मॉडल बनता है?</h4>
+              <h4 className="font-semibold">
+                Can drone images create 3D models?
+              </h4>
               <p className="mt-1 text-sm text-gray-700">
-                हाँ, photogrammetry software (जैसे Pix4D या DroneDeploy) multiple overlapping images से accurate 3D point clouds और orthomosaics बनाते हैं।
+                Yes, photogrammetry software (such as Pix4D or DroneDeploy)
+                generates accurate 3D point clouds and orthomosaics from
+                multiple overlapping images.
               </p>
             </div>
             <div className="bg-white p-5 rounded-lg shadow">
-              <h4 className="font-semibold">क्या ड्रोन मॉनिटरिंग महँगी होती है?</h4>
+              <h4 className="font-semibold">
+                Is drone monitoring expensive?
+              </h4>
               <p className="mt-1 text-sm text-gray-700">
-                शुरुआत में investment होता है, लेकिन manual surveys की तुलना में समय और गलती दोनों कम होने से लंबी अवधि में cost-effective होती है।
+                There is an initial investment, but compared to manual surveys,
+                it saves time and reduces errors, making it cost-effective in
+                the long run.
               </p>
             </div>
           </div>
@@ -186,9 +244,12 @@ export function DroneMonitoringPage () {
       {/* CTA */}
       <section className="px-6 py-16 bg-gradient-to-r from-green-600 to-green-400 text-white text-center">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2">अपनी साइट को ड्रोन से मॉनिटर करें</h2>
+          <h2 className="text-3xl font-bold mb-2">
+            Monitor Your Site with Drones
+          </h2>
           <p className="mb-6">
-            प्रगति को real-time में देखें, जोखिम कम करें और बेहतर निर्णय लें। हमारी ड्रोन मॉनिटरिंग सर्विस के लिए अभी संपर्क करें।
+            View progress in real time, reduce risks, and make better decisions.
+            Contact us today for our drone monitoring services.
           </p>
           <button className="px-8 py-4 bg-white text-green-700 font-semibold rounded-md shadow hover:opacity-90">
             Free Site Assessment

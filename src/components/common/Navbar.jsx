@@ -1,15 +1,14 @@
-import React from 'react';
-import { Menu, X } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 import logo from "../../assets/navbar/logo.png";
 
 const navItems = [
-  { name: 'Homes', to: '/' },
-  { name: 'Our Construction', to: '/construction' },
-  { name: 'Gallery', to: '/gallery' },
-  { name: 'About', to: '/about' },
-  { name: 'Contact', to: '/contact' },
-  { name: 'Careers', to: '/careers' },
+  { name: "Homes", to: "/" },
+  { name: "Our Construction", to: "/construction" },
+  { name: "Gallery", to: "/gallery" },
+  { name: "About", to: "/about" },
+  { name: "Careers", to: "/careers" },
 ];
 
 export function Navbar() {
@@ -26,7 +25,7 @@ export function Navbar() {
               className="h-12 w-auto object-contain"
               onError={(e) => {
                 e.currentTarget.onerror = null;
-                e.currentTarget.src = '';
+                e.currentTarget.src = "";
               }}
             />
           </Link>
@@ -48,10 +47,10 @@ export function Navbar() {
         <div className="flex items-center gap-6">
           <div className="hidden lg:block">
             <Link
-              to="/get-started"
+              to="/contact"
               className="px-5 py-2 bg-green-700 rounded-md text-base font-semibold hover:bg-green-500 transition"
             >
-              Get Started
+              Contact
             </Link>
           </div>
 

@@ -10,21 +10,21 @@ const techs = [
     desc: "Visualize your home before we break ground.",
     image: modelingImg,
     alt: "3D modeling visualization",
-    path: "/technology/3d-modeling",
+    path: "/3d",
   },
   {
     name: "Drone Monitoring",
     desc: "Track progress from anywhere with aerial views.",
     image: droneImg,
     alt: "Drone flying over construction site",
-    path: "/technology/drone-monitoring",
+    path: "/drone",
   },
   {
     name: "Smart Tools",
     desc: "Precision construction with cutting-edge equipment.",
     image: smartToolsImg,
     alt: "Smart construction tools",
-    path: "/technology/smart-tools",
+    path: "/tools",
   },
 ];
 
