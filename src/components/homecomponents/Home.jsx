@@ -6,14 +6,22 @@ export function Hero() {
   return (
     <section
       aria-label="Hero section"
-      className="relative text-white"
-      style={{
-        backgroundImage: `url(${hero})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
+      className="relative text-white w-full"
     >
+      {/* Background Image */}
+      <div
+        className="absolute inset-0"
+        style={{
+          backgroundImage: `url(${hero})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+        aria-hidden="true"
+      />
+      {/* Overlay */}
       <div className="absolute inset-0 bg-black/60" aria-hidden="true" />
+
+      {/* Content */}
       <div className="relative max-w-7xl mx-auto px-6 py-32 flex flex-col lg:flex-row gap-10 items-start">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
@@ -29,10 +37,8 @@ export function Hero() {
             Choose a model, customize it, and track progress—all in one place.
             Explore available homes and get started today.
           </p>
+
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
-            <label htmlFor="location" className="sr-only">
-          
-            </label>
             <input
               id="location"
               placeholder=""
@@ -41,6 +47,7 @@ export function Hero() {
               aria-label="City or Zip Code"
             />
           </div>
+
           <div className="mt-4 flex flex-wrap gap-3">
             <button
               className="px-6 py-3 bg-white text-green-700 font-semibold rounded-md"

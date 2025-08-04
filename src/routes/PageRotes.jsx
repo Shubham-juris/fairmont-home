@@ -8,10 +8,12 @@ import { ThreeDModelingPage } from "../components/construction/pages/ThreeDModel
 import { CedarModernPage } from "../components/homecomponents/homespages/CedarModernPage";
 import { PineSignaturePage } from "../components/homecomponents/homespages/PineSignaturePage";
 import { MapleClassicPage } from "../components/homecomponents/homespages/MapleClassicPage";
+import { ScrollToTop } from "../components/scrolltotop/ScrollToTop";
 
 const PageRotes = () => {
   return (
     <>
+    <ScrollToTop/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="construction" element={<Construction />} />
