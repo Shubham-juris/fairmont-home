@@ -15,7 +15,7 @@ export function MapleClassicPage() {
 
       {/* Content */}
       <section className="px-6 py-12 max-w-5xl mx-auto">
-        <h1 className="text-4xl font-bold mb-4">Maple Classic</h1>
+        <h1 className="text-4xl font-bold mb-4  text-green-600">Maple Classic</h1>
         <p className="text-lg text-gray-600 mb-6">
           Located in the heart of Calgary, AB, the Maple Classic is a timeless
           design that blends comfort and elegance. Perfect for families, this
@@ -23,7 +23,7 @@ export function MapleClassicPage() {
           a residence that will last for generations.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-3">Key Features</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-3  text-green-600">Key Features</h2>
         <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li>3 spacious bedrooms and 2.5 bathrooms</li>
           <li>Open-concept living and dining area</li>

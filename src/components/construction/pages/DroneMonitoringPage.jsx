@@ -5,7 +5,7 @@ export function DroneMonitoringPage() {
     <main className="bg-gray-50 text-gray-900">
       {/* Header */}
       <section className="px-6 py-16 max-w-5xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-4">
+        <h1 className="text-4xl font-bold text-center mb-4  text-green-600">
           Drone Monitoring in Construction
         </h1>
         <p className="text-center text-lg max-w-2xl mx-auto">
@@ -17,7 +17,7 @@ export function DroneMonitoringPage() {
       {/* Overview */}
       <section className="px-6 py-12 border-t">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-2">
+          <h2 className="text-2xl font-semibold mb-2  text-green-600">
             What is Drone Monitoring?
           </h2>
           <p className="mb-4">
@@ -32,10 +32,10 @@ export function DroneMonitoringPage() {
       {/* Key Capabilities */}
       <section className="px-6 py-12">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-6">Key Capabilities</h2>
+          <h2 className="text-2xl font-semibold mb-6  text-green-600">Key Capabilities</h2>
           <div className="grid gap-10 md:grid-cols-2">
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-2">Progress Tracking</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Progress Tracking</h3>
               <p className="mb-2">
                 Regular drone flights allow comparison of current site progress
                 against the plan. Overlays and time-lapse videos created from
@@ -43,7 +43,7 @@ export function DroneMonitoringPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-2">Site Surveying & Mapping</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Site Surveying & Mapping</h3>
               <p className="mb-2">
                 High-resolution aerial imagery is used to create accurate
                 topographic maps and 3D models, essential for planning and
@@ -51,14 +51,14 @@ export function DroneMonitoringPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-2">Safety Inspections</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Safety Inspections</h3>
               <p className="mb-2">
                 Drones can inspect hazardous or hard-to-reach areas, identifying
                 safety risks without putting workers in danger.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-2">Volume Calculations</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Volume Calculations</h3>
               <p className="mb-2">
                 Accurately measure stockpile or excavation volumes using 3D
                 point clouds and photogrammetry.
@@ -71,7 +71,7 @@ export function DroneMonitoringPage() {
       {/* Workflow */}
       <section className="px-6 py-12 bg-green-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">
+          <h2 className="text-2xl font-semibold mb-4  text-green-600">
             Typical Drone Monitoring Workflow
           </h2>
           <ol className="list-decimal list-inside space-y-3">
@@ -102,26 +102,26 @@ export function DroneMonitoringPage() {
       {/* Tools */}
       <section className="px-6 py-12">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">
+          <h2 className="text-2xl font-semibold mb-4  text-green-600">
             Popular Tools & Platforms
           </h2>
           <div className="grid gap-8 md:grid-cols-2">
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-lg font-bold">DJI Drones</h3>
+              <h3 className="text-lg font-bold  text-green-600">DJI Drones</h3>
               <p className="mb-1">
                 Enterprise-grade drones like DJI Phantom 4 RTK and Mavic 3
                 Enterprise are widely used for high-precision mapping.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-lg font-bold">Pix4D / DroneDeploy</h3>
+              <h3 className="text-lg font-bold  text-green-600">Pix4D / DroneDeploy</h3>
               <p className="mb-1">
                 Photogrammetry platforms that generate orthomosaics, 3D models,
                 and volume reports from aerial images.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-lg font-bold">
+              <h3 className="text-lg font-bold  text-green-600">
                 Reality Capture & BIM Integration
               </h3>
               <p className="mb-1">
@@ -130,7 +130,7 @@ export function DroneMonitoringPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-lg font-bold">Analytics Dashboards</h3>
+              <h3 className="text-lg font-bold  text-green-600">Analytics Dashboards</h3>
               <p className="mb-1">
                 Custom dashboards display progress tracking, deviation alerts,
                 and historical comparisons.
@@ -143,12 +143,12 @@ export function DroneMonitoringPage() {
       {/* Video Section */}
       <section className="px-6 py-12 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4 text-center">
+          <h2 className="text-2xl font-semibold mb-4 text-center  text-green-600">
             Video Demonstrations
           </h2>
           <div className="grid gap-10 md:grid-cols-2">
             <div className="space-y-2">
-              <h3 className="font-bold">Drone Monitoring Overview</h3>
+              <h3 className="font-bold  text-green-600">Drone Monitoring Overview</h3>
               <p className="text-sm text-gray-600">
                 How drones track construction sites in real time and convert
                 data into actionable insights.
@@ -164,7 +164,7 @@ export function DroneMonitoringPage() {
               </div>
             </div>
             <div className="space-y-2">
-              <h3 className="font-bold">Mapping & Progress with Drones</h3>
+              <h3 className="font-bold  text-green-600">Mapping & Progress with Drones</h3>
               <p className="text-sm text-gray-600">
                 Practical site mapping and progress comparison using
                 photogrammetry.
@@ -186,7 +186,7 @@ export function DroneMonitoringPage() {
       {/* Benefits */}
       <section className="px-6 py-12 bg-green-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">
+          <h2 className="text-2xl font-semibold mb-4  text-green-600">
             Benefits of Drone Monitoring
           </h2>
           <ul className="list-disc list-inside space-y-2">
@@ -204,12 +204,12 @@ export function DroneMonitoringPage() {
       {/* FAQ */}
       <section className="px-6 py-12">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-6">
+          <h2 className="text-2xl font-semibold mb-6  text-green-600">
             Frequently Asked Questions
           </h2>
           <div className="space-y-4">
             <div className="bg-white p-5 rounded-lg shadow">
-              <h4 className="font-semibold">
+              <h4 className="font-semibold  text-green-600">
                 How often should drone monitoring be done?
               </h4>
               <p className="mt-1 text-sm text-gray-700">
@@ -218,7 +218,7 @@ export function DroneMonitoringPage() {
               </p>
             </div>
             <div className="bg-white p-5 rounded-lg shadow">
-              <h4 className="font-semibold">
+              <h4 className="font-semibold  text-green-600">
                 Can drone images create 3D models?
               </h4>
               <p className="mt-1 text-sm text-gray-700">
@@ -228,7 +228,7 @@ export function DroneMonitoringPage() {
               </p>
             </div>
             <div className="bg-white p-5 rounded-lg shadow">
-              <h4 className="font-semibold">
+              <h4 className="font-semibold  text-green-600">
                 Is drone monitoring expensive?
               </h4>
               <p className="mt-1 text-sm text-gray-700">
@@ -244,7 +244,7 @@ export function DroneMonitoringPage() {
       {/* CTA */}
       <section className="px-6 py-16 bg-gradient-to-r from-green-600 to-green-400 text-white text-center">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2">
+          <h2 className="text-3xl font-bold mb-2  text-green-600">
             Monitor Your Site with Drones
           </h2>
           <p className="mb-6">

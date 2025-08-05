@@ -5,7 +5,7 @@ export function ThreeDModelingPage() {
     <main className="bg-gray-50 text-gray-900">
       {/* Hero */}
       <section className="px-6 py-16 max-w-5xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-4">
+        <h1 className="text-4xl font-bold text-center mb-4  text-green-600">
           Complete Guide to 3D Modeling
         </h1>
         <p className="text-center text-lg max-w-2xl mx-auto">
@@ -17,7 +17,7 @@ export function ThreeDModelingPage() {
       {/* Overview */}
       <section className="px-6 py-12 border-t">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-2">What is 3D Modeling?</h2>
+          <h2 className="text-2xl font-semibold mb-2  text-green-600">What is 3D Modeling?</h2>
           <p className="mb-4">
             3D modeling is a computer-based process of creating a
             three-dimensional representation of an object’s surface. It is made
@@ -31,12 +31,12 @@ export function ThreeDModelingPage() {
       {/* Techniques */}
       <section className="px-6 py-12">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-6">
+          <h2 className="text-2xl font-semibold mb-6  text-green-600">
             Key 3D Modeling Techniques
           </h2>
           <div className="grid gap-10 md:grid-cols-2">
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-2">Polygonal Modeling</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Polygonal Modeling</h3>
               <p className="mb-2">
                 The most common method where vertices, edges, and faces are
                 connected to form a mesh. Models are built from quads and
@@ -45,7 +45,7 @@ export function ThreeDModelingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-2">Box Modeling</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Box Modeling</h3>
               <p className="mb-2">
                 Starts with a primitive (such as a cube) and gradually shapes
                 it using subdivision and extrusion to add detail. This method is
@@ -53,7 +53,7 @@ export function ThreeDModelingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-2">Procedural Modeling</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Procedural Modeling</h3>
               <p className="mb-2">
                 Models are generated based on rules and algorithmic logic, such
                 as landscapes, plants, or large architectural scenes. It is
@@ -61,7 +61,7 @@ export function ThreeDModelingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-2">Digital Sculpting</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Digital Sculpting</h3>
               <p className="mb-2">
                 Like working with clay, digital sculpting allows you to push,
                 pull, and smooth digital geometry to create organic and
@@ -76,7 +76,7 @@ export function ThreeDModelingPage() {
       {/* Workflow */}
       <section className="px-6 py-12 bg-green-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">
+          <h2 className="text-2xl font-semibold mb-4  text-green-600">
             Typical 3D Modeling Workflow
           </h2>
           <ol className="list-decimal list-inside space-y-3">
@@ -119,26 +119,26 @@ export function ThreeDModelingPage() {
       {/* Tools */}
       <section className="px-6 py-12">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">
+          <h2 className="text-2xl font-semibold mb-4  text-green-600">
             Popular Tools / Software
           </h2>
           <div className="grid gap-8 md:grid-cols-2">
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-lg font-bold">Blender</h3>
+              <h3 className="text-lg font-bold  text-green-600">Blender</h3>
               <p className="mb-1">
                 Open-source, versatile software for modeling, sculpting,
                 rendering, and animation.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-lg font-bold">Fusion 360</h3>
+              <h3 className="text-lg font-bold  text-green-600">Fusion 360</h3>
               <p className="mb-1">
                 Ideal for parametric and CAD-focused modeling, especially for
                 engineering and construction components.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-lg font-bold">
+              <h3 className="text-lg font-bold  text-green-600">
                 Construction-specific 3D Workflows
               </h3>
               <p className="mb-1">
@@ -147,7 +147,7 @@ export function ThreeDModelingPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="text-lg font-bold">Other Tools</h3>
+              <h3 className="text-lg font-bold  text-green-600">Other Tools</h3>
               <p className="mb-1">
                 Autodesk Maya, 3ds Max, SketchUp, Adobe Dimension, and more.
               </p>
@@ -159,12 +159,12 @@ export function ThreeDModelingPage() {
       {/* Video Section */}
       <section className="px-6 py-12 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4 text-center">
+          <h2 className="text-2xl font-semibold mb-4 text-center  text-green-600">
             Video Tutorials
           </h2>
           <div className="grid gap-10 md:grid-cols-2">
             <div className="space-y-2">
-              <h3 className="font-bold">Quick 3D Modeling Process (11 minutes)</h3>
+              <h3 className="font-bold  text-green-600">Quick 3D Modeling Process (11 minutes)</h3>
               <p className="text-sm text-gray-600">
                 A simple approach to modeling anything in 3D quickly.
               </p>
@@ -179,7 +179,7 @@ export function ThreeDModelingPage() {
               </div>
             </div>
             <div className="space-y-2">
-              <h3 className="font-bold">3D in Construction Overview</h3>
+              <h3 className="font-bold  text-green-600">3D in Construction Overview</h3>
               <p className="text-sm text-gray-600">
                 How 3D technology is used in construction and the workflows it
                 follows.
@@ -201,7 +201,7 @@ export function ThreeDModelingPage() {
       {/* Benefits */}
       <section className="px-6 py-12 bg-green-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">
+          <h2 className="text-2xl font-semibold mb-4  text-green-600">
             Benefits of 3D Modeling in Construction
           </h2>
           <ul className="list-disc list-inside space-y-2">
@@ -217,19 +217,19 @@ export function ThreeDModelingPage() {
       {/* FAQ */}
       <section className="px-6 py-12">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-6">
+          <h2 className="text-2xl font-semibold mb-6  text-green-600">
             Frequently Asked Questions
           </h2>
           <div className="space-y-4">
             <div className="bg-white p-5 rounded-lg shadow">
-              <h4 className="font-semibold">Where can I learn 3D modeling?</h4>
+              <h4 className="font-semibold  text-green-600">Where can I learn 3D modeling?</h4>
               <p className="mt-1 text-sm text-gray-700">
                 Start with Blender’s official documentation, YouTube tutorials
                 (such as the 11-minute guide above), and free online courses.
               </p>
             </div>
             <div className="bg-white p-5 rounded-lg shadow">
-              <h4 className="font-semibold">
+              <h4 className="font-semibold  text-green-600">
                 Do I need coding skills for 3D modeling?
               </h4>
               <p className="mt-1 text-sm text-gray-700">
@@ -238,7 +238,7 @@ export function ThreeDModelingPage() {
               </p>
             </div>
             <div className="bg-white p-5 rounded-lg shadow">
-              <h4 className="font-semibold">
+              <h4 className="font-semibold  text-green-600">
                 What’s the biggest advantage of 3D modeling in construction?
               </h4>
               <p className="mt-1 text-sm text-gray-700">
@@ -253,7 +253,7 @@ export function ThreeDModelingPage() {
       {/* Call to action */}
       <section className="px-6 py-16 bg-gradient-to-r from-green-600 to-green-400 text-white text-center">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2">
+          <h2 className="text-3xl font-bold mb-2  text-green-600">
             Ready to Visualize Your Project?
           </h2>
           <p className="mb-6">

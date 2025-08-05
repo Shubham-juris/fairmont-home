@@ -10,7 +10,7 @@ export function SmartConstructionToolsPage() {
     <main className="bg-gray-50 text-gray-900">
       {/* Header */}
       <section className="px-6 py-16 max-w-5xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-4">
+        <h1 className="text-4xl font-bold text-center mb-4  text-green-600">
           Smart Construction Tools
         </h1>
         <p className="text-center text-lg max-w-3xl mx-auto">
@@ -22,7 +22,7 @@ export function SmartConstructionToolsPage() {
       {/* Overview */}
       <section className="px-6 py-12 border-t">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-2">What Are Smart Construction Tools?</h2>
+          <h2 className="text-2xl font-semibold mb-2  text-green-600">What Are Smart Construction Tools?</h2>
           <p className="mb-4">
             Smart construction tools use advanced technology like sensors, automation,
             and digital data processing to improve efficiency, accuracy, and safety on
@@ -35,7 +35,7 @@ export function SmartConstructionToolsPage() {
       {/* Tools with Images */}
       <section className="px-6 py-12">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-6">Popular Smart Tools in Construction</h2>
+          <h2 className="text-2xl font-semibold mb-6  text-green-600">Popular Smart Tools in Construction</h2>
           <div className="grid gap-10 md:grid-cols-2">
             {/* Tool 1 */}
             <div className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
@@ -44,7 +44,7 @@ export function SmartConstructionToolsPage() {
                 alt="Laser Level"
                 className="w-full h-56 object-cover rounded-md mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">Laser Levels</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Laser Levels</h3>
               <p>
                 Laser levels project a constant horizontal or vertical beam to ensure
                 perfect alignment during construction. They are essential for laying
@@ -59,7 +59,7 @@ export function SmartConstructionToolsPage() {
                 alt="Robotic Total Station"
                 className="w-full h-56 object-cover rounded-md mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">Robotic Total Stations</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Robotic Total Stations</h3>
               <p>
                 These automated surveying instruments measure angles and distances
                 with extreme accuracy. They can be operated remotely, saving time and
@@ -74,7 +74,7 @@ export function SmartConstructionToolsPage() {
                 alt="Concrete Scanner"
                 className="w-full h-56 object-cover rounded-md mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">Concrete Scanners</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Concrete Scanners</h3>
               <p>
                 Concrete scanners use ground-penetrating radar (GPR) to detect rebar,
                 conduits, and voids inside concrete before cutting or drilling, ensuring
@@ -89,7 +89,7 @@ export function SmartConstructionToolsPage() {
                 alt="Smart Power Tools"
                 className="w-full h-56 object-cover rounded-md mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">Smart Power Tools</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">Smart Power Tools</h3>
               <p>
                 Cordless drills, impact drivers, and saws with Bluetooth connectivity
                 allow for performance tracking, theft protection, and usage analytics
@@ -104,7 +104,7 @@ export function SmartConstructionToolsPage() {
                 alt="GPS Machine Control"
                 className="w-full h-56 object-cover rounded-md mb-4"
               />
-              <h3 className="text-xl font-bold mb-2">GPS Machine Control</h3>
+              <h3 className="text-xl font-bold mb-2  text-green-600">GPS Machine Control</h3>
               <p>
                 Heavy equipment like excavators and graders equipped with GPS machine
                 control can automatically adjust blade heights or digging depth, following
@@ -118,7 +118,7 @@ export function SmartConstructionToolsPage() {
       {/* Benefits */}
       <section className="px-6 py-12 bg-green-50">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4">Benefits of Smart Tools</h2>
+          <h2 className="text-2xl font-semibold mb-4  text-green-600">Benefits of Smart Tools</h2>
           <ul className="list-disc list-inside space-y-2">
             <li>Higher precision in construction tasks</li>
             <li>Reduced human error and rework</li>
@@ -129,19 +129,7 @@ export function SmartConstructionToolsPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="px-6 py-16 bg-gradient-to-r from-green-600 to-green-400 text-white text-center">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2">Upgrade Your Site with Smart Tools</h2>
-          <p className="mb-6">
-            Improve efficiency, safety, and accuracy with the latest construction
-            technology. Contact us today to find the right smart tools for your project.
-          </p>
-          <button className="px-8 py-4 bg-white text-green-700 font-semibold rounded-md shadow hover:opacity-90">
-            Get a Free Consultation
-          </button>
-        </div>
-      </section>
+     
     </main>
   );
 }

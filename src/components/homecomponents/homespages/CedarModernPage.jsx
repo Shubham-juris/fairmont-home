@@ -13,14 +13,14 @@ export function CedarModernPage() {
       </section>
 
       <section className="px-6 py-12 max-w-5xl mx-auto">
-        <h1 className="text-4xl font-bold mb-4">Cedar Modern</h1>
+        <h1 className="text-4xl font-bold  text-green-600 mb-4">Cedar Modern</h1>
         <p className="text-lg text-gray-600 mb-6">
           Nestled in Banff, AB, the Cedar Modern is designed for those who
           appreciate contemporary aesthetics with a natural touch. The sleek
           architecture blends perfectly with the surrounding landscapes.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-3">Key Features</h2>
+        <h2 className="text-2xl font-semibold mt-8  text-green-600 mb-3">Key Features</h2>
         <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li>3 bedrooms and 2 bathrooms</li>
           <li>Floor-to-ceiling glass walls with mountain views</li>

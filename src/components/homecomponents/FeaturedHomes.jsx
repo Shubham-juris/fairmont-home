@@ -6,7 +6,7 @@ import cedar from '../../assets/home/cedar.jpg';
 
 const homes = [
   { name: 'Maple Classic', location: 'Calgary, AB', image: maple, path: '/maple' },
-  { name: 'Pine Signature', location: 'Edmonton, AB', image: pine, path: 'pine' },
+  { name: 'Pine Signature', location: 'Edmonton, AB', image: pine, path: '/pine' },
   { name: 'Cedar Modern', location: 'Banff, AB', image: cedar, path: '/cedar' },
 ];
 
@@ -20,7 +20,10 @@ export function FeaturedHomes() {
         </p>
         <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {homes.map((h) => (
-            <div key={h.name} className="border rounded-xl overflow-hidden shadow-md flex flex-col">
+            <div
+              key={h.name}
+              className="border rounded-xl overflow-hidden shadow-md flex flex-col transform transition-transform duration-300 hover:scale-105"
+            >
               <div className="relative h-48 w-full">
                 <img
                   src={h.image}
