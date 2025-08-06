@@ -14,7 +14,7 @@ export function FeaturedHomes() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-gray-900">Featured Homes</h2>
+        <h2 className="text-3xl font-bold text-green-600">Featured Homes</h2>
         <p className="mt-2 text-gray-600 max-w-2xl">
           Explore some of our most popular models—customizable, energy efficient, and built to last.
         </p>

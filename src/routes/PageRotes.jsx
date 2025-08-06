@@ -10,6 +10,7 @@ import { PineSignaturePage } from "../components/homecomponents/homespages/PineS
 import { MapleClassicPage } from "../components/homecomponents/homespages/MapleClassicPage";
 import { ScrollToTop } from "../components/scrolltotop/ScrollToTop";
 import GalleryPage from "../pages/GalleryPage";
+import AboutPage from "../pages/AboutPage";
 
 const PageRotes = () => {
   return (
@@ -19,6 +20,7 @@ const PageRotes = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="construction" element={<Construction />} />
         <Route path="gallery" element={<GalleryPage />} />
+        <Route path="about" element={<AboutPage />} />
 
         <Route path="drone" element={<DroneMonitoringPage />} />
         <Route path="tools" element={<SmartConstructionToolsPage />} />

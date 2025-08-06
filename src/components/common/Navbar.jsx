@@ -28,7 +28,7 @@ export function Navbar() {
               to={item.to}
               className={({ isActive }) =>
                 `transition relative ${
-                  isActive ? "text-teal-400" : "hover:text-teal-400"
+                  isActive ? "text-green-400" : "hover:text-green-400"
                 }`
               }
             >

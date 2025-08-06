@@ -156,47 +156,7 @@ export function ThreeDModelingPage() {
         </div>
       </section>
 
-      {/* Video Section */}
-      <section className="px-6 py-12 bg-white">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4 text-center  text-green-600">
-            Video Tutorials
-          </h2>
-          <div className="grid gap-10 md:grid-cols-2">
-            <div className="space-y-2">
-              <h3 className="font-bold  text-green-600">Quick 3D Modeling Process (11 minutes)</h3>
-              <p className="text-sm text-gray-600">
-                A simple approach to modeling anything in 3D quickly.
-              </p>
-              <div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  title="Learn How to 3D Model Anything in 11 Minutes"
-                  src="https://www.youtube.com/embed/pycr3rijnzQ"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full rounded-md shadow"
-                ></iframe>
-              </div>
-            </div>
-            <div className="space-y-2">
-              <h3 className="font-bold  text-green-600">3D in Construction Overview</h3>
-              <p className="text-sm text-gray-600">
-                How 3D technology is used in construction and the workflows it
-                follows.
-              </p>
-              <div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  title="3D in Construction"
-                  src="https://www.youtube.com/embed/dlVyDPvA5N0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full rounded-md shadow"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* Benefits */}
       <section className="px-6 py-12 bg-green-50">
@@ -250,21 +210,7 @@ export function ThreeDModelingPage() {
         </div>
       </section>
 
-      {/* Call to action */}
-      <section className="px-6 py-16 bg-gradient-to-r from-green-600 to-green-400 text-white text-center">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2  text-green-600">
-            Ready to Visualize Your Project?
-          </h2>
-          <p className="mb-6">
-            See your design before it’s built, make revisions, and move forward
-            with confidence using our 3D modeling services.
-          </p>
-          <button className="px-8 py-4 bg-white text-green-700 font-semibold rounded-md shadow hover:opacity-90">
-            Get a Free 3D Consultation
-          </button>
-        </div>
-      </section>
+     
     </main>
   );
 }

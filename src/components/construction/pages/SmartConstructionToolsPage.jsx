@@ -5,6 +5,7 @@ import concreteScannerImg from "../../../assets/construction/tools/scaner.jpg";
 import powerToolsImg from "../../../assets/construction/tools/power.webp";
 import gpsMachineControlImg from "../../../assets/construction/tools/gps.jpg";
 
+
 export function SmartConstructionToolsPage() {
   return (
     <main className="bg-gray-50 text-gray-900">
@@ -18,7 +19,6 @@ export function SmartConstructionToolsPage() {
           revolutionize how we build—making projects faster, safer, and more accurate.
         </p>
       </section>
-
       {/* Overview */}
       <section className="px-6 py-12 border-t">
         <div className="max-w-5xl mx-auto">

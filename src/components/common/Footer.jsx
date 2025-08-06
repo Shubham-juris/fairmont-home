@@ -23,10 +23,10 @@ export function Footer() {
         <div>
           <div className="font-semibold mb-2">Resources</div>
           <div className="space-y-1 text-sm">
-            <Link to="#" className="block hover:text-white">Pricing &amp; Plans</Link>
-            <Link to="#" className="block hover:text-white">FAQ</Link>
-            <Link to="#" className="block hover:text-white">Blog</Link>
-            <Link to="#" className="block hover:text-white">Contact</Link>
+            <Link to="/" className="block hover:text-white">Pricing &amp; Plans</Link>
+            <Link to="/" className="block hover:text-white">FAQ</Link>
+            <Link to="/" className="block hover:text-white">Blog</Link>
+            <Link to="contact" className="block hover:text-white">Contact</Link>
           </div>
         </div>
         <div>
@@ -34,7 +34,7 @@ export function Footer() {
           <div className="text-sm">123 Fairmont Street, Calgary, AB</div>
           <div className="text-sm mt-1">
             <a href="mailto:info@fairmonthomes.com" className="hover:underline">
-              info@fairmonthomes.com
+              xyzhomes.com
             </a>
           </div>
           <div className="text-sm mt-1">

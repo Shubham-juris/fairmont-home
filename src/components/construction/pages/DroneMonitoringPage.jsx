@@ -140,48 +140,7 @@ export function DroneMonitoringPage() {
         </div>
       </section>
 
-      {/* Video Section */}
-      <section className="px-6 py-12 bg-white">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-semibold mb-4 text-center  text-green-600">
-            Video Demonstrations
-          </h2>
-          <div className="grid gap-10 md:grid-cols-2">
-            <div className="space-y-2">
-              <h3 className="font-bold  text-green-600">Drone Monitoring Overview</h3>
-              <p className="text-sm text-gray-600">
-                How drones track construction sites in real time and convert
-                data into actionable insights.
-              </p>
-              <div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  title="Drone Monitoring Construction"
-                  src="https://www.youtube.com/embed/_Z9KyJH3F-c"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full rounded-md shadow"
-                ></iframe>
-              </div>
-            </div>
-            <div className="space-y-2">
-              <h3 className="font-bold  text-green-600">Mapping & Progress with Drones</h3>
-              <p className="text-sm text-gray-600">
-                Practical site mapping and progress comparison using
-                photogrammetry.
-              </p>
-              <div className="aspect-w-16 aspect-h-9">
-                <iframe
-                  title="Drone Site Mapping"
-                  src="https://www.youtube.com/embed/1G7hIu0G2b8"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full rounded-md shadow"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Benefits */}
       <section className="px-6 py-12 bg-green-50">
@@ -241,21 +200,7 @@ export function DroneMonitoringPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="px-6 py-16 bg-gradient-to-r from-green-600 to-green-400 text-white text-center">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2  text-green-600">
-            Monitor Your Site with Drones
-          </h2>
-          <p className="mb-6">
-            View progress in real time, reduce risks, and make better decisions.
-            Contact us today for our drone monitoring services.
-          </p>
-          <button className="px-8 py-4 bg-white text-green-700 font-semibold rounded-md shadow hover:opacity-90">
-            Free Site Assessment
-          </button>
-        </div>
-      </section>
+     
     </main>
   );
 }
