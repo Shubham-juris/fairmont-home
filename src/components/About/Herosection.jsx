@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/about/hero1.jpg";
+import img from "../../assets/about/hero3.jpg";
 import { motion } from "framer-motion";
 
 const AboutHeroSection = () => {
@@ -19,7 +19,7 @@ const AboutHeroSection = () => {
         className="relative z-10 text-center text-white px-4"
       >
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          About Fairmont Homes
+          About <span className="text-green-400">Fairmont Homes</span>
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto">
           Building Trust. Crafting Quality. Creating Homes that Last.

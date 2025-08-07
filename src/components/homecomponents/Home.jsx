@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import hero from '../../assets/home/hero.avif';
+import hero from "../../assets/about/hero2.jpg";
 
 export function Hero() {
   return (

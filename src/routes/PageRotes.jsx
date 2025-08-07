@@ -11,6 +11,7 @@ import { MapleClassicPage } from "../components/homecomponents/homespages/MapleC
 import { ScrollToTop } from "../components/scrolltotop/ScrollToTop";
 import GalleryPage from "../pages/GalleryPage";
 import AboutPage from "../pages/AboutPage";
+import CarrerPage from "../pages/CarrerPage";
 
 const PageRotes = () => {
   return (
@@ -21,6 +22,7 @@ const PageRotes = () => {
         <Route path="construction" element={<Construction />} />
         <Route path="gallery" element={<GalleryPage />} />
         <Route path="about" element={<AboutPage />} />
+        <Route path="carrer" element={<CarrerPage />} />
 
         <Route path="drone" element={<DroneMonitoringPage />} />
         <Route path="tools" element={<SmartConstructionToolsPage />} />

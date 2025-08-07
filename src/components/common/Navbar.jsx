@@ -8,7 +8,7 @@ const navItems = [
   { name: "Our Construction", to: "/construction" },
   { name: "Gallery", to: "/gallery" },
   { name: "About", to: "/about" },
-  { name: "Careers", to: "/careers" },
+  { name: "Careers", to: "/carrer" },
 ];
 
 export function Navbar() {
