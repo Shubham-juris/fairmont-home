@@ -12,6 +12,7 @@ import { ScrollToTop } from "../components/scrolltotop/ScrollToTop";
 import GalleryPage from "../pages/GalleryPage";
 import AboutPage from "../pages/AboutPage";
 import CarrerPage from "../pages/CarrerPage";
+import Contact from "../components/contactUs/Contact";
 
 const PageRotes = () => {
   return (
@@ -23,6 +24,7 @@ const PageRotes = () => {
         <Route path="gallery" element={<GalleryPage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="carrer" element={<CarrerPage />} />
+        <Route path="contact" element={<Contact/>}/>
 
         <Route path="drone" element={<DroneMonitoringPage />} />
         <Route path="tools" element={<SmartConstructionToolsPage />} />
